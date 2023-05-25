@@ -1,0 +1,24 @@
+{
+  "name": "@shzware-framework/api",
+  "version": "0.0.1-fixvuln2",
+  "description": "API For ShZWare-Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shyzuu",
+  "keywords": [
+    "framework",
+    "shzware"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "axios": "^1.4.0",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "fs-extra": "^11.1.1",
+    "rootpath": "^0.1.2",
+    "uuid": "^9.0.0"
+  }
+}
