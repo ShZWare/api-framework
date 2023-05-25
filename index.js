@@ -2,8 +2,8 @@ require('dotenv').config();
 
 require('rootpath')();
 
-const FRAMEWORK_VERSION = "0.0.1-fixapi";
-const FRAMEWORK_API_VERSION = "0.0.1-fixvuln2";
+const FRAMEWORK_VERSION = "0.0.2";
+const FRAMEWORK_API_VERSION = "0.0.2";
 
 module.exports.frameworkVersion = FRAMEWORK_VERSION;
 module.exports.frameworkAPIVersion = FRAMEWORK_API_VERSION;
@@ -103,6 +103,28 @@ module.exports.getElevenLabsVoiceSettings = async function (apiKey, voiceId) {
         module.exports.log(error, "red");
     }
 } 
+
+module.exports.getElevenLabsAllModels = async function (apiKey) {
+    try {
+        if (!apiKey) {
+            module.exports.log("ERROR: Missing apiKey, please be sure you didn't make typo", "red");
+        }
+
+        const getModelURL = `${elevenLabsAPI}/models`;
+
+        const getResponse = await module.exports.axios({
+            method: 'GET',
+            url: getModelURL,
+            headers: {
+                'xi-api-key': apiKey
+            }
+        });
+
+        return getResponse.data;
+    } catch (error) {
+        module.exports.log(error, "red");
+    }
+}
 
 module.exports.getElevenLabsTextToSpeech = async function(apiKey, voiceId, fileName, textInput, modelId) {
     try {
