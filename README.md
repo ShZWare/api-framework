@@ -1,4 +1,4 @@
-# api-framework
+# api-framework [![Socket Badge](https://socket.dev/api/badge/npm/package/@shzware-framework/api)](https://socket.dev/npm/package/@shzware-framework/api)
 [![Socket Badge](https://socket.dev/api/badge/npm/package/@shzware-framework/api)](https://socket.dev/npm/package/@shzware-framework/api)
 API for ShZWare-Framework
 
