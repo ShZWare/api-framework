@@ -67,6 +67,13 @@ const getResponse = api.getElevenLabsVoiceSettings(apiKey, voiceId).then(res => 
     console.log(res);
 })
 
+// Get ElevenLabs User Info
+const apiKey = 'your-api-key';
+
+const getResponse = api.getElevenLabsUser(apiKey).then(res => {
+    console.log(res);
+})
+
 // Get ElevenLabs TextToSpeech
 const apiKey = 'your-api-key', voiceId = 'any-voiceId-from-elevenlabs';
 const text = 'Hello';
