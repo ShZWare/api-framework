@@ -5,3 +5,8 @@ API for ShZWare-Framework
 ```javascript
 npm install @shzware-framework/main
 ```
+
+# Usage
+```javascript
+const api = require('@shzware-framework/api');
+```
