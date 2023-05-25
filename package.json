@@ -1,6 +1,6 @@
 {
   "name": "@shzware-framework/api",
-  "version": "0.0.2-smallfix2",
+  "version": "0.0.2-smallfix3",
   "description": "API For ShZWare-Framework",
   "main": "index.js",
   "scripts": {
