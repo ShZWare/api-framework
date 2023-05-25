@@ -1,6 +1,6 @@
 {
   "name": "@shzware-framework/api",
-  "version": "0.0.2",
+  "version": "0.0.2-smallfix",
   "description": "API For ShZWare-Framework",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,16 @@
     "shzware",
     "api"
   ],
+  "bugs": {
+    "url": "https://github.com/ShZWare/api-framework/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShZWare/api-framework.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "dependencies": {
     "ascii-table": "^0.0.9",
