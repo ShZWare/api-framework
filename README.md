@@ -1,4 +1,7 @@
 # api-framework [![Socket Badge](https://socket.dev/api/badge/npm/package/@shzware-framework/api)](https://socket.dev/npm/package/@shzware-framework/api)
+[![Downloads](https://img.shields.io/npm/dt/@shzware-framework/api?style=for-the-badge)](https://www.npmjs.com/package/@shzware-framework/api)
+[![Stable Version](https://img.shields.io/npm/v/@shzware-framework/api?style=for-the-badge)](https://www.npmjs.com/package/@shzware-framework/api)
+
 API for ShZWare-Framework
 
 # Installation
