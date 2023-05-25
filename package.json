@@ -1,6 +1,6 @@
 {
   "name": "@shzware-framework/api",
-  "version": "0.0.1-fixvuln2",
+  "version": "0.0.2",
   "description": "API For ShZWare-Framework",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,8 @@
   "author": "Shyzuu",
   "keywords": [
     "framework",
-    "shzware"
+    "shzware",
+    "api"
   ],
   "license": "MIT",
   "dependencies": {
