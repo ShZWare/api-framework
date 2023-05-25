@@ -2,8 +2,8 @@ require('dotenv').config();
 
 require('rootpath')();
 
-const FRAMEWORK_VERSION = "0.0.2-smallfix";
-const FRAMEWORK_API_VERSION = "0.0.2-smallfix";
+const FRAMEWORK_VERSION = "0.0.2-smallfix2";
+const FRAMEWORK_API_VERSION = "0.0.2-smallfix2";
 
 module.exports.frameworkVersion = FRAMEWORK_VERSION;
 module.exports.frameworkAPIVersion = FRAMEWORK_API_VERSION;
